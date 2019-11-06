@@ -223,7 +223,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 152628, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Pillar 01 (3)
+      value: pillier sortie gauche
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -231,11 +231,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.95
+      value: -5.89
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.58
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -669,7 +669,7 @@ Transform:
   - {fileID: 1185095490}
   - {fileID: 293356950}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &97492508 stripped
 GameObject:
@@ -976,8 +976,11 @@ Transform:
   - {fileID: 1546688878}
   - {fileID: 333574709}
   - {fileID: 342867400}
+  - {fileID: 1492928670}
+  - {fileID: 337283285}
+  - {fileID: 1993251126}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &180544062 stripped
 GameObject:
@@ -1337,7 +1340,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (8)
+      value: contour salle 9
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1688,15 +1691,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (1)
+      value: contour salle 2
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.1084456
+      value: 5.11
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7529354
+      value: -3.62
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1871,7 +1874,7 @@ GameObject:
   - component: {fileID: 265248908}
   - component: {fileID: 265248907}
   m_Layer: 0
-  m_Name: room light
+  m_Name: "lumi\xE8re salle"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2214,7 +2217,7 @@ Transform:
   - {fileID: 2063852400}
   - {fileID: 963331115}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &302420699
 GameObject:
@@ -2490,7 +2493,7 @@ Transform:
   - {fileID: 366331239}
   - {fileID: 1342237380}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &316712968
 GameObject:
@@ -2654,7 +2657,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 177228, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor02 Blank Big
+      value: sol salle sortie
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2745,6 +2748,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 3.0000002, z: 9.16025}
   m_Center: {x: -1.5, y: -1.4999999, z: 4.580125}
+--- !u!1 &337283281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 177228, guid: 25059aa22067d984b9d135f902b0a43e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1544610499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &337283285 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1544610499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &337283286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337283281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.000006, y: 6.000002, z: 0.100003086}
+  m_Center: {x: -3, y: -3.0000012, z: -0.049998622}
 --- !u!1 &342867399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,7 +2856,7 @@ GameObject:
   - component: {fileID: 362025064}
   - component: {fileID: 362025063}
   m_Layer: 0
-  m_Name: Area Light (2)
+  m_Name: "lumi\xE8re couloir 3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3346,7 +3374,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 102998, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_Name
-      value: Build Accesory Brazier 02 (2)
+      value: "brazier entr\xE9e droit"
       objectReference: {fileID: 0}
     - target: {fileID: 444570, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3796,7 +3824,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 102998, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_Name
-      value: Build Accesory Brazier 02 (1)
+      value: brazier sortie droit
       objectReference: {fileID: 0}
     - target: {fileID: 444570, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4048,7 +4076,7 @@ GameObject:
   - component: {fileID: 531484609}
   - component: {fileID: 531484608}
   m_Layer: 0
-  m_Name: Area Light (4)
+  m_Name: "lumi\xE8re couloir"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4066,7 +4094,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.8666667, g: 0.42346177, b: 0.15294117, a: 1}
   m_Intensity: 2
-  m_Range: 2
+  m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -4648,7 +4676,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 146964, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor01 Blank
+      value: sol sortie
       objectReference: {fileID: 0}
     - target: {fileID: 443370, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4739,6 +4767,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1368064397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &610723221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176752749}
+    m_Modifications:
+    - target: {fileID: 116148, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_Name
+      value: plafond couloir
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.737416
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.7004473
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.919781
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.4891467
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5092009
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.095113
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
 --- !u!1001 &629657754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4748,7 +4845,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 102998, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_Name
-      value: Build Accesory Brazier 02 (3)
+      value: "brazier entr\xE9e gauche"
       objectReference: {fileID: 0}
     - target: {fileID: 444570, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5148,7 +5245,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 152628, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Pillar 01
+      value: "pillier entr\xE9e droit"
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5156,11 +5253,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.77
+      value: -4.74
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.38
+      value: 0.34
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5236,7 +5333,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 184602, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_Name
-      value: Build Base 03 Pillar 01 (2)
+      value: pillier gauche
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5292,7 +5389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.56252724
+      value: 0.5857034
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f5cefdef397810469e068956f389db8, type: 3}
@@ -5329,7 +5426,7 @@ Transform:
   - {fileID: 1143331271}
   - {fileID: 531484609}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &792151077 stripped
 GameObject:
@@ -5365,15 +5462,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 195556, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_Name
-      value: Build Base Tower 02 (1)
+      value: "porte entr\xE9e"
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.420265
+      value: 9.42
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.634
+      value: -7.72
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5421,7 +5518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15901092
+      value: 0.16575298
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
@@ -5933,7 +6030,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (9)
+      value: contour salle 10
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6068,6 +6165,99 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 945628417}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &961206310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961206311}
+  - component: {fileID: 961206314}
+  - component: {fileID: 961206313}
+  - component: {fileID: 961206312}
+  m_Layer: 0
+  m_Name: Plane (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961206311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961206310}
+  m_LocalRotation: {x: 1, y: -0.00000034272674, z: 4.263256e-14, w: 0.000000119209275}
+  m_LocalPosition: {x: -15.73, y: 20.52, z: 3.83}
+  m_LocalScale: {x: 0.21674058, y: 0.43430632, z: 0.2167406}
+  m_Children: []
+  m_Father: {fileID: 1830805096}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: -180.00002}
+--- !u!64 &961206312
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961206310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &961206313
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961206310}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6823dbe98b4bac34da90ccb55e5792eb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &961206314
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961206310}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &963331112 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 102998, guid: 8b235acde1ad438459d2fd5665f1acd4,
@@ -6569,15 +6759,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (4)
+      value: contour salle 5
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.1084456
+      value: 5.11
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7529354
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6760,6 +6950,99 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0000002, y: 4.0400014, z: 2.4005651}
   m_Center: {x: -0.3749348, y: 0.0000009536743, z: -0.0000042915344}
+--- !u!1 &1077597428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1077597429}
+  - component: {fileID: 1077597432}
+  - component: {fileID: 1077597431}
+  - component: {fileID: 1077597430}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1077597429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077597428}
+  m_LocalRotation: {x: 1, y: -0.00000031292436, z: 3.5527131e-13, w: -0.0000008344649}
+  m_LocalPosition: {x: -15.76, y: 24.88, z: 10.97}
+  m_LocalScale: {x: 0.21674046, y: 0.43430644, z: 0.21674043}
+  m_Children: []
+  m_Father: {fileID: 517697133}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: -180.00002}
+--- !u!64 &1077597430
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077597428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1077597431
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077597428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5ca434a5c7a5c564fb6a473abda8985b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1077597432
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077597428}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1101698426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6769,15 +7052,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (7)
+      value: contour salle 8
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.030854
+      value: -9.03
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7525353
+      value: -3.58
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7184,7 +7467,7 @@ GameObject:
   - component: {fileID: 1130751775}
   - component: {fileID: 1130751774}
   m_Layer: 0
-  m_Name: Area Light (1)
+  m_Name: "lumi\xE8re couloir 4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7368,7 +7651,7 @@ GameObject:
   - component: {fileID: 1143331271}
   - component: {fileID: 1143331270}
   m_Layer: 0
-  m_Name: Area Light (3)
+  m_Name: "lumi\xE8re couloir 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7386,7 +7669,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.8666667, g: 0.42346177, b: 0.15294117, a: 1}
   m_Intensity: 2
-  m_Range: 2
+  m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -7397,7 +7680,7 @@ Light:
     m_Strength: 1
     m_Bias: 0
     m_NormalBias: 0
-    m_NearPlane: 0.02
+    m_NearPlane: 0.04
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -7619,7 +7902,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 184602, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_Name
-      value: Build Base 03 Pillar 01 (1)
+      value: pillier droit
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7675,7 +7958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.56252724
+      value: 0.58559084
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f5cefdef397810469e068956f389db8, type: 3}
@@ -7890,15 +8173,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (2)
+      value: contour salle 3
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0380542
+      value: -3.04
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7529354
+      value: -3.64
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8048,7 +8331,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 146964, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor01 Blank (1)
+      value: "sol entr\xE9e"
       objectReference: {fileID: 0}
     - target: {fileID: 443370, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8455,15 +8738,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (5)
+      value: contour salle 6
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.0259542
+      value: -3.03
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7529354
+      value: -3.61
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8717,15 +9000,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (3)
+      value: contour salle 4
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.2456455
+      value: 13.25
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7529354
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9014,7 +9297,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 184602, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_Name
-      value: Build Base 03 Pillar 01
+      value: pillier droit 2
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9070,7 +9353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.56252706
+      value: 0.5849021
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f5cefdef397810469e068956f389db8, type: 3}
@@ -9083,7 +9366,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 178456, guid: 48b711f14a4890e4f86bbc88e458d1ac, type: 3}
       propertyPath: m_Name
-      value: Build Base Pillar Marble 2 (1)
+      value: pillier couloir gauche
       objectReference: {fileID: 0}
     - target: {fileID: 450010, guid: 48b711f14a4890e4f86bbc88e458d1ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9470,7 +9753,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 178456, guid: 48b711f14a4890e4f86bbc88e458d1ac, type: 3}
       propertyPath: m_Name
-      value: Build Base Pillar Marble 2
+      value: pillier couloir droit
       objectReference: {fileID: 0}
     - target: {fileID: 450010, guid: 48b711f14a4890e4f86bbc88e458d1ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9602,7 +9885,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 195556, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_Name
-      value: Build Base Tower 02
+      value: porte sortie
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9610,7 +9893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.6542997
+      value: -7.48
       objectReference: {fileID: 0}
     - target: {fileID: 487718, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9662,6 +9945,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d3a34b4d119e8b4ca6d67f4d6065d12, type: 3}
+--- !u!1001 &1407594028
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 176752749}
+    m_Modifications:
+    - target: {fileID: 116148, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_Name
+      value: plafond couloir 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.716
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.560774
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0982518
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5092009
+      objectReference: {fileID: 0}
+    - target: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.095113
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e448c5c56670de409e9a0a2ef7fda3a, type: 3}
 --- !u!1 &1425613536
 GameObject:
   m_ObjectHideFlags: 0
@@ -9764,7 +10116,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 177228, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor02 Blank Big (1)
+      value: "sol salle entr\xE9e"
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10526,6 +10878,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0000002, y: 4.040001, z: 2.4005654}
   m_Center: {x: -0.37493527, y: 0.0000009536743, z: -0.00000333786}
+--- !u!1 &1492928667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 116148, guid: 7e448c5c56670de409e9a0a2ef7fda3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 610723221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1492928670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 610723221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1492928671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492928667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 0.100000024}
+  m_Center: {x: -1.5000002, y: -1.5, z: 0.050000012}
 --- !u!1 &1503450939 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 120372, guid: e96f8212458d3c7409509ab876e551aa,
@@ -10604,15 +10981,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06 (6)
+      value: contour salle 7
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.040955
+      value: -9.04
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7525353
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10801,23 +11178,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 176752749}
     m_Modifications:
     - target: {fileID: 177228, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor02 Blank Big
+      value: plafond salle
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.71
+      value: -8.477416
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.05
+      value: -1.4571791
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.34
+      value: 2.159226
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10837,7 +11214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10853,15 +11230,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.192635
+      value: 4.409398
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.3374085
+      value: 2.3374095
       objectReference: {fileID: 0}
     - target: {fileID: 417762, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0966
+      value: 1.0966005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25059aa22067d984b9d135f902b0a43e, type: 3}
@@ -11230,7 +11607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 102998, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_Name
-      value: Build Accesory Brazier 02
+      value: brazier sortie gauche
       objectReference: {fileID: 0}
     - target: {fileID: 444570, guid: 8b235acde1ad438459d2fd5665f1acd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11554,7 +11931,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 152628, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Pillar 01 (2)
+      value: pillier sortie droit
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11562,11 +11939,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.26
+      value: -14.2
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.53
+      value: -7.6
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -12002,7 +12379,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 146964, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor01 Blank (3)
+      value: sol couloir
       objectReference: {fileID: 0}
     - target: {fileID: 443370, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12723,7 +13100,7 @@ Transform:
   - {fileID: 1378151132}
   - {fileID: 1193268736}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1745766928
 PrefabInstance:
@@ -13120,7 +13497,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 146964, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_Name
-      value: Build Base Floor01 Blank (2)
+      value: sol couloir 2
       objectReference: {fileID: 0}
     - target: {fileID: 443370, guid: 5e9d96432bce8a944b83e5da5e96fb6b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13742,6 +14119,99 @@ Transform:
   m_Father: {fileID: 1260345336}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!1 &1938867356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1938867357}
+  - component: {fileID: 1938867360}
+  - component: {fileID: 1938867359}
+  - component: {fileID: 1938867358}
+  m_Layer: 0
+  m_Name: Plane (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1938867357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938867356}
+  m_LocalRotation: {x: 1, y: 0.00000014901163, z: 4.263256e-14, w: 0.0000004768371}
+  m_LocalPosition: {x: -19.353, y: 24.88, z: 7.58}
+  m_LocalScale: {x: 0.21674058, y: 0.43430632, z: 0.2167406}
+  m_Children: []
+  m_Father: {fileID: 1650301614}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: -179.99998}
+--- !u!64 &1938867358
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938867356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1938867359
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938867356}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fead7091430b8d04eb95375e51e774cc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1938867360
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938867356}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1940483860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13751,7 +14221,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 184602, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_Name
-      value: Build Base 03 Pillar 01 (3)
+      value: pillier gauche 2
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13807,7 +14277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 405886, guid: 3f5cefdef397810469e068956f389db8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.56252724
+      value: 0.5853096
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f5cefdef397810469e068956f389db8, type: 3}
@@ -13955,6 +14425,31 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1985528207}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1993251123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 116148, guid: 7e448c5c56670de409e9a0a2ef7fda3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1407594028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1993251126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451166, guid: 7e448c5c56670de409e9a0a2ef7fda3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1407594028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1993251127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993251123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.0000002, y: 3, z: 0.100000024}
+  m_Center: {x: -1.5000001, y: -1.5000001, z: 0.050000012}
 --- !u!1001 &2012439925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14129,7 +14624,7 @@ Transform:
   - {fileID: 322326119}
   - {fileID: 1472332866}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023096271 stripped
 GameObject:
@@ -14408,15 +14903,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156024, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Wall 06
+      value: contour salle
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.2456455
+      value: 13.25
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7468352
+      value: -3.62
       objectReference: {fileID: 0}
     - target: {fileID: 470822, guid: eabdf78d8a1589a4d979b06ed5bed3e1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14912,7 +15407,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 152628, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_Name
-      value: Build Base 01 Pillar 01 (1)
+      value: "pillier entr\xE9e gauche"
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14920,11 +15415,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.46
+      value: 3.52
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.32
+      value: 7.25
       objectReference: {fileID: 0}
     - target: {fileID: 438678, guid: 037114a21af1e3f43a611c417a3e59f3, type: 3}
       propertyPath: m_LocalRotation.x
