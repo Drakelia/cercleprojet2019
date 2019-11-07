@@ -5,7 +5,9 @@ using UnityEngine;
 public class vertical : MonoBehaviour
 {
     float timeLeft, hDep;
-    GameObject door;
+    public GameObject door;
+    public GameObject door1;
+    public GameObject door2;
 
     private void Start()
     {
@@ -19,15 +21,13 @@ public class vertical : MonoBehaviour
         print(angle);
         if(angle>359 || angle < 1) {
             timeLeft -= Time.deltaTime;
-            if (timeLeft < 0) { 
-                door.transform.Translate(0, Time.deltaTime, 0);
+            if (timeLeft < 0) {
+                door.GetComponent<PorteScriptY>().bougerPorte = true;
+                door1.GetComponent<PorteScriptY>().bougerPorte = true;
+                door2.GetComponent<PorteScriptY>().bougerPorte = true;
             }
         }else {
-            timeLeft = 3;
-            if(door.transform.position.y > hDep) {
-                door.transform.Translate(0, -Time.deltaTime, 0);
-            }
-           
+            timeLeft = 3;        
         }
     }
 
