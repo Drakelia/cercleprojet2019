@@ -4230,7 +4230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1905531054}
-  NextSceneName: Entree
+  NextSceneName: pyramide
 --- !u!4 &726377688 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 427772, guid: d0c81ec20f7fd6a4089f711a6a23ba2b,
