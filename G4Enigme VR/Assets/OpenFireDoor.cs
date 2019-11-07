@@ -12,10 +12,6 @@ public class OpenFireDoor : MonoBehaviour
     public GameObject Brasero5;
     public GameObject Brasero6;
 
-    public AudioClip OpenDoor;
-    private AudioSource _audioSource;
-
-
     public float speed;
 
     bool bOpen = false;
@@ -32,8 +28,7 @@ public class OpenFireDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _audioSource = GetComponent<AudioSource>();
-        _audioSource.clip = OpenDoor;
+      
     }
 
     // Update is called once per frame
@@ -68,15 +63,8 @@ public class OpenFireDoor : MonoBehaviour
         {
             bOpen = true;
             print("OPEEEEEEN");
-            
-            transform.Translate(0,0, speed * Time.deltaTime);
-
-            if (!played)
-            {
-            _audioSource.Play();
-             played = true;
-
-            }
+            GetComponent<PorteScriptZ>().bougerPorte = true;
+            //transform.Translate(0,0, speed * Time.deltaTime);    
         }
     }
 }
