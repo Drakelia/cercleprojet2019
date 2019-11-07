@@ -74,6 +74,7 @@ public class PorteScriptY : MonoBehaviour
         }
     }
 
+
     void MovePorte()
     {
         if (!soundPlayed)

@@ -12,7 +12,7 @@ public class PorteScriptX : MonoBehaviour
     public float timerToMove;
     public float positionXToStop;
     public float porteEntreSpeed;
-    private bool bougerPorte = false;
+    public bool bougerPorte = false;
     public BoxCollider boxCollider;
     public bool useTimer = false;
 

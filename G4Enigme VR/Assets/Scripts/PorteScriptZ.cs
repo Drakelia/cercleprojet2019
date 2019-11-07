@@ -12,7 +12,7 @@ public class PorteScriptZ : MonoBehaviour
     public float timerToMove;
     public float positionZToStop;
     public float porteEntreSpeed;
-    private bool bougerPorte = false;
+    public bool bougerPorte = false;
     public BoxCollider boxCollider;
     public bool useTimer = false;
 
