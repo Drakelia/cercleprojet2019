@@ -34,16 +34,9 @@ public class ScriptSalle : MonoBehaviour
              h
              +"l :" +
              l);
-        print(nextValue);
-      /*  print(value == nextValue && (h == last.h + 1 ^ h == last.h - 1 ^ l == last.l + 1 ^ l == last.l - 1));
-        print(value == nextValue);
-        print((h == last.h + 1 ^ h == last.h - 1));
-        print(l == last.l + 1 ^ l == last.l - 1);*/
 
         if ((toSave.Count == 0 && tiles[l][h] == tiles[0][0]) || (value == nextValue && ((h == last.h+1 ^ h == last.h-1) ^ (l == last.l + 1 ^ l == last.l - 1))))
         {
-            print(l);
-            print(h);
             toSave.Add(tiles[l][h]);
             last = tiles[l][h];
             tiles[l][h].enfoncer();
@@ -65,6 +58,7 @@ public class ScriptSalle : MonoBehaviour
             }
             toSave.Clear();
             nextValue = 1;
+            last = null;
         }
         
 
