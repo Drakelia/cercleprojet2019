@@ -17,7 +17,7 @@ public class vertical : MonoBehaviour
     {
         float angle = transform.eulerAngles.z;
         print(angle);
-        if(angle>359.5 || angle < 0.5) {
+        if(angle>359 || angle < 1) {
             timeLeft -= Time.deltaTime;
             if (timeLeft < 0) { 
                 door.transform.Translate(0, Time.deltaTime, 0);
