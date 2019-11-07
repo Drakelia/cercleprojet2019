@@ -5,23 +5,20 @@ using UnityEngine;
 public class PorteScript : MonoBehaviour
 {
     private float timer = 0;
+    private bool soundPlayed = false;
+    private AudioSource audioSource;
 
     public bool versLeHaut;
-
     public float timerToMove;
-
     public float positionZToStop;
-
     public float porteEntreSpeed;
-
     private bool bougerPorte = false;
-
     public BoxCollider boxCollider;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -75,6 +72,11 @@ public class PorteScript : MonoBehaviour
 
     void MovePorte()
     {
+        if (!soundPlayed)
+        {
+            audioSource.Play();
+            soundPlayed = true;
+        }
         transform.Translate(0, 0, porteEntreSpeed * Time.deltaTime);
     }
 }
