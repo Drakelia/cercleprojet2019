@@ -7,10 +7,11 @@ public class vertical : MonoBehaviour
     float timeLeft, hDep;
     public GameObject door;
     public GameObject door1;
+    public GameObject door3;
 
     private void Start()
     {
-        timeLeft = 3;
+        timeLeft = 2;
         //door = GameObject.Find("moveBlock");
         hDep = door.transform.position.y;
     }
@@ -24,6 +25,7 @@ public class vertical : MonoBehaviour
                 print(1);
                 door.GetComponent<PorteScriptZ>().bougerPorte = true;
                 door1.GetComponent<PorteScriptZ>().bougerPorte = true;
+                door3.GetComponent<PorteScriptZ>().bougerPorte = true;
             }
         }else {
             timeLeft = 3;        
