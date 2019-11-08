@@ -19,7 +19,7 @@ public class vertical : MonoBehaviour
     {
         float angle = transform.eulerAngles.z;
         print(angle);
-        if(angle>359 || angle < 1) {
+        if(angle>358 || angle < 2) {
             timeLeft -= Time.deltaTime;
             if (timeLeft < 0) {
                 print(1);

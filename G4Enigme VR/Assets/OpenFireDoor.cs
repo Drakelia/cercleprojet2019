@@ -59,7 +59,7 @@ public class OpenFireDoor : MonoBehaviour
             isBurning6 = true;
         }
 
-        if(isBurning1 && isBurning2)// && isBurning3 && isBurning4 && isBurning5 && isBurning6)
+        if(isBurning1 && isBurning2 && isBurning3 && isBurning4 && isBurning5 && isBurning6)
         {
             bOpen = true;
             print("OPEEEEEEN");
