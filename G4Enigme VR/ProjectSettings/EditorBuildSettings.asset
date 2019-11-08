@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Salle-Tombeau.unity
     guid: 7e429a4a644c3ab449b24f642fc49cd9
+  - enabled: 1
+    path: Assets/Scenes/Sortie.unity
+    guid: 7b745cf77e5090241b3a46451a4a346e
   m_configObjects: {}
