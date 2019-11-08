@@ -8,6 +8,7 @@ public class ScriptSalle : MonoBehaviour
     List<GestionPressurePlate> toSave = new List<GestionPressurePlate>();
     GestionPressurePlate last;
     int nextValue;
+    public GameObject DOOR;
 
 
     // Start is called before the first frame update
@@ -48,6 +49,7 @@ public class ScriptSalle : MonoBehaviour
             if(tiles[3][10] == tiles[l][h])
             {
                 //trigger porte
+                DOOR.GetComponent<PorteScriptZ>().bougerPorte = true;
                 print("reussi");
             }
         } else
