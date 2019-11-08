@@ -72,7 +72,7 @@ public class SldiePorte : MonoBehaviour
 
         if (Pot1 && Pot2 && Pot3 && Pot4 /*&& fps <= 330*/ )
         {
-            transform.Translate(0, 0, speed * Time.deltaTime);
+            //transform.Translate(0, 0, speed * Time.deltaTime);
             GetComponent<PorteScriptZ>().bougerPorte = true;
         }
             /*           fps = fps + 1;

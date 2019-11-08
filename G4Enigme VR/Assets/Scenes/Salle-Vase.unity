@@ -561,7 +561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27345631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 303.3756, y: 5.824, z: 27}
+  m_LocalPosition: {x: 304.06, y: 5.824, z: 27}
   m_LocalScale: {x: 7.49671, y: -5.978184, z: 0.1}
   m_Children: []
   m_Father: {fileID: 1461002748}
@@ -18717,15 +18717,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 415450, guid: fd79671f8e817764d9befcd928c232a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.36
+      value: -12.4
       objectReference: {fileID: 0}
     - target: {fileID: 415450, guid: fd79671f8e817764d9befcd928c232a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 118.44
+      value: 118.4
       objectReference: {fileID: 0}
     - target: {fileID: 415450, guid: fd79671f8e817764d9befcd928c232a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.38
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 415450, guid: fd79671f8e817764d9befcd928c232a5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -18789,7 +18789,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961229116}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e38fbd7815346240a00a5253b077450, type: 3}
   m_Name: 
@@ -18934,6 +18934,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.000004, y: 1.0000008, z: 5}
   m_Center: {x: 0.000030517578, y: 0.0000004470346, z: 2.4999933}
+--- !u!114 &961229124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961229116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f714eac62b1294db0cf14313a3a02b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  versLeHaut: 1
+  timerToMove: 0
+  positionZToStop: 20
+  porteEntreSpeed: 1.2
+  bougerPorte: 0
+  boxCollider: {fileID: 0}
+  useTimer: 0
 --- !u!1 &962752975
 GameObject:
   m_ObjectHideFlags: 0
