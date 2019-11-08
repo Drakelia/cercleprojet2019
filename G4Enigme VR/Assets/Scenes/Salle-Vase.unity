@@ -8523,7 +8523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -25989,7 +25989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447340, guid: 7a15552f952d0b440a9305a906ed0308, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 447340, guid: 7a15552f952d0b440a9305a906ed0308, type: 3}
       propertyPath: m_LocalScale.x
@@ -30870,11 +30870,19 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.417
       objectReference: {fileID: 0}
+    - target: {fileID: 493348, guid: 86eb17a942c440d49a3d710b1fe2b593, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 11486988, guid: 86eb17a942c440d49a3d710b1fe2b593, type: 3}
       propertyPath: fireParticlePrefab
       value: 
       objectReference: {fileID: 8006108511863019976, guid: c197220c7366faa40b930a007a49bf62,
         type: 3}
+    - target: {fileID: 4000011769105342, guid: 86eb17a942c440d49a3d710b1fe2b593, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86eb17a942c440d49a3d710b1fe2b593, type: 3}
 --- !u!4 &1616359839 stripped
