@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: aa9738d078199ed4dbcd908cfcd05a68
+  - enabled: 1
+    path: Assets/Scenes/pyramide.unity
+    guid: 7ec2c2cc58c08634eb57eabc426dfcac
+  - enabled: 1
+    path: Assets/Scenes/Entree.unity
+    guid: e59fe329ff513ce4ab55cc9f7a966c74
+  - enabled: 1
+    path: Assets/Scenes/salle_dalles.unity
+    guid: 24b8b2a65d4dd92469b142033f641358
+  - enabled: 1
+    path: Assets/Scenes/Salle-Vase.unity
+    guid: 999deb295b2fd4b4d8379d20fecc5e0d
+  - enabled: 1
+    path: Assets/Scenes/Salle-Arc.unity
+    guid: 87914fa5a0acb884dba171f35124626b
+  - enabled: 1
+    path: Assets/Scenes/Salle-Tombeau.unity
+    guid: 7e429a4a644c3ab449b24f642fc49cd9
+  - enabled: 1
+    path: Assets/Scenes/Sortie.unity
+    guid: 7b745cf77e5090241b3a46451a4a346e
   m_configObjects: {}
