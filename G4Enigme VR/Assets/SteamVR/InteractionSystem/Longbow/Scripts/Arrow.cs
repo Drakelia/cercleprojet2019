@@ -31,7 +31,7 @@ namespace Valve.VR.InteractionSystem
 
 		private bool inFlight;
 		private bool released;
-		private bool hasSpreadFire = false;
+		private bool hasSpreadFire = true;
 
 		private int travelledFrames = 0;
 
@@ -72,7 +72,10 @@ namespace Valve.VR.InteractionSystem
 				glintParticle.Play();
 			}
 
-			if ( gameObject.GetComponentInChildren<FireSource>().isBurning )
+            gameObject.GetComponentInChildren<FireSource>().canSpreadFromThisSource = true;
+
+
+            if ( gameObject.GetComponentInChildren<FireSource>().isBurning )
 			{
 				fireReleaseSound.Play();
 			}

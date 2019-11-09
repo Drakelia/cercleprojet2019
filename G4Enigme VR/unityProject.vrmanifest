@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.g4enigmevr.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Frost\\Documents\\cercleprojet2019\\cercleprojet2019\\G4Enigme VR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "G4Enigme VR [Testing]"
+        }
+      }
+    }
+  ]
+}
